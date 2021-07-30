@@ -86,7 +86,7 @@ class Comment(db.Model):
 
 # RESET DATABASE
 # db.drop_all()
-# db.create_all()
+db.create_all()
 
 
 # CREATE ADMIN-ONLY DECORATOR
